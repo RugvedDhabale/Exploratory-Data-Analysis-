@@ -10,7 +10,7 @@ import seaborn as sns                       #visualisation
 import matplotlib.pyplot as plt             #visualisation
 get_ipython().run_line_magic('matplotlib', 'inline')
 sns.set(color_codes=True)
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data_1.csv")
 # To display the top 5 rows 
 df.head(5)         
 df.tail(5)                        # To display the botton 5 rows
